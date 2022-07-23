@@ -1,0 +1,36 @@
+{
+    "terminal.integrated.shell.windows": "c:/Program Files/PowerShell/7/pwsh.exe",
+    "editor.parameterHints.enabled": false,
+    // "editor.hover.enabled": false,
+    "editor.cursorStyle": "block",
+    "workbench.colorCustomizations": {
+        "editorCursor.foreground": "#aa0000",
+        // "editor.foreground": "#00dd00",
+    },
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 120,
+    "editor.rulers": [
+        80
+    ],
+    "window.enableMenuBarMnemonics": false,
+    "window.customMenuBarAltFocus": false,
+    "window.titleBarStyle": "custom",
+    "editor.fontSize": 14,
+    "[markdown]":{
+        "editor.wordWrap": "wordWrapColumn",
+        "editor.wordWrapColumn": 120,
+    },
+    "[powershell]":{
+        "editor.wordWrap": "wordWrapColumn",
+        "editor.wordWrapColumn": 120,
+    },
+    "redhat.telemetry.enabled": false,
+    "remote.SSH.remotePlatform": {
+        "kali-blood-tls": "linux",
+        "kali-blood": "linux",
+        "kali-solarsteinn": "linux",
+        "kali-lab": "linux"
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+
+}
